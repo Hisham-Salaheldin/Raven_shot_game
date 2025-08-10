@@ -2,6 +2,8 @@ Raven Hunter
 A simple browser-based canvas shooting game where you must click on flying ravens before they escape the screen.
 Built using JavaScript, HTML Canvas API, and simple sprite-based animation.
 
+or copy the link: https://hisham-salaheldin.github.io/Raven_shot_game/src/index.html
+
 🎯 How to Play
 Start the Game: Open the HTML file in your browser. The game starts automatically.
 
