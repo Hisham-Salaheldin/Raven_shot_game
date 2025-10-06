@@ -1,0 +1,31 @@
+Raven Hunter
+A simple browser-based canvas shooting game where you must click on flying ravens before they escape the screen.
+Built using JavaScript, HTML Canvas API, and simple sprite-based animation.
+
+or copy the link: https://hisham-salaheldin.github.io/Raven_shot_game/src/index.html
+
+🎯 How to Play
+Start the Game: Open the HTML file in your browser. The game starts automatically.
+
+Objective:
+
+Click on the ravens to destroy them before they fly past the left side of the screen.
+
+Each raven you destroy increases your score by 1 point.
+
+Game Over:
+
+If more than 3 ravens escape without being destroyed, the game ends and your final score is displayed.
+<<<Reload the page to restart>>>
+
+Special Effects:
+
+Each raven has a unique hidden color for collision detection.
+
+Destroying a raven triggers an explosion animation and sound effect.
+
+Some ravens leave behind colorful particle trails.
+
+
+#This project is free for educational and personal use.
+Do not redistribute the assets without permission.
