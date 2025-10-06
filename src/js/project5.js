@@ -36,7 +36,7 @@ class Raven {
     constructor(){
         // image src
         this.image = new Image();
-        this.image.src = 'game-images/enemies/raven.png';
+        this.image.src = './src/game-images/enemies/raven.png';
         // image sheet crope size for one frame
         this.spriteWidth = 271;
         this.spritHeight = 194;
@@ -109,7 +109,7 @@ class Raven {
 class Explosion {
     constructor(x,y,size){
         this.image = new Image();
-        this.image.src = 'game-images/effects/boom-1000.png';
+        this.image.src = './src/game-images/effects/boom-1000.png';
         this.spriteWidth = 200;
         this.spritHeight = 179;
         this.size = size * 0.7;
@@ -120,7 +120,7 @@ class Explosion {
         this.exploTime = 0;
         this.angel = Math.random() * 6.2;
         this.sound = new Audio();
-        this.sound.src = 'game-sound/Ice attack 2.wav';
+        this.sound.src = './src//game-sound/Ice attack 2.wav';
         this.markedForDeletion = false;
         
     }
@@ -243,4 +243,3 @@ function animate(timestamp){
     }
 }
 animate(lastTime);
-
